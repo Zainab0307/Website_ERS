@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   Box,
   Typography,
@@ -7,15 +7,7 @@ import {
   ListItem,
   ListItemIcon,
   ListItemText,
-  Button,
-  Divider,
-  FormControl,
-  FormHelperText,
-  TextField,
-  ListItemButton,
 } from "@mui/material";
-import * as Yup from "yup";
-import { Formik } from "formik";
 import cv1 from "../assets/images/cv1.png";
 import cv2 from "../assets/images/cv2.png";
 import cv3 from "../assets/images/cv3.png";
@@ -23,14 +15,7 @@ import cv4 from "../assets/images/cv4.png";
 import cv5 from "../assets/images/cv5.png";
 import cv6 from "../assets/images/cv6.png";
 import Qmark from "../assets/images/qmark.png";
-import book from "../assets/images/book.png";
-import { useTheme } from "@mui/material/styles";
-import { TextareaAutosize } from "@mui/base/TextareaAutosize";
-import TeamMember from "../assets/images/abrar.png";
-import { FaLinkedin } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
-import { FaSquarePhone } from "react-icons/fa6";
-import { Link } from "react-router-dom";
+
 import RequestQueryForm from "./RequestQueryForm";
 
 
@@ -64,6 +49,7 @@ function CoreValues() {
                           <img
                             src={cv1}
                             className="w-[26px] block object-cover"
+                             alt="..."
                           />
                         </ListItemIcon>
                         <ListItemText
@@ -84,6 +70,7 @@ a no-brainer for us"
                           <img
                             src={cv2}
                             className="w-[26px] block object-cover"
+                             alt="..."
                           />
                         </ListItemIcon>
                         <ListItemText
@@ -104,6 +91,7 @@ a no-brainer for us"
                           <img
                             src={cv3}
                             className="w-[26px] block object-cover"
+                             alt="..."
                           />
                         </ListItemIcon>
                         <ListItemText
@@ -124,6 +112,7 @@ a no-brainer for us"
                           <img
                             src={cv4}
                             className="w-[26px] block object-cover"
+                             alt="..."
                           />
                         </ListItemIcon>
                         <ListItemText
@@ -144,6 +133,7 @@ a no-brainer for us"
                           <img
                             src={cv5}
                             className="w-[26px] block object-cover"
+                             alt="..."
                           />
                         </ListItemIcon>
                         <ListItemText
@@ -164,6 +154,7 @@ a no-brainer for us"
                           <img
                             src={cv6}
                             className="w-[26px] block object-cover"
+                             alt="..."
                           />
                         </ListItemIcon>
                         <ListItemText

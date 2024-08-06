@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Box, Divider, Typography, Button, Grid, Tab } from "@mui/material";
+import { Box,  Typography, Button, Grid, Tab } from "@mui/material";
 import aboutOneImg from "../assets/images/about-h-img.png";
-import RTwoImg from "../assets/images/hero-graphic-two.png";
 import TabContext from "@material-ui/lab/TabContext";
 import TabList from "@material-ui/lab/TabList";
 import TabPanel from "@material-ui/lab/TabPanel";

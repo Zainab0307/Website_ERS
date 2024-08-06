@@ -70,7 +70,7 @@ function IndustriesWeServe() {
             <SwiperSlide>
               <Box className="relative border-[3px] border-[#C1ECFB] rounded-[10px] shadow-lg h-[285px] min-h-full">
                 <Box className="z-10 bg-gradient-to-r from-[#27B4EE] to-[#115DCE] h-[100px] w-[100px] rounded-[50%] flex justify-center items-center slider-box-adjustment">
-                  <img src={basket} className="w-[40%] object-cover" />
+                  <img src={basket} className="w-[40%] object-cover"  alt="..." />
                 </Box>
                 <Box className="block mt-[4rem] px-2">
                   <Typography
@@ -99,7 +99,7 @@ function IndustriesWeServe() {
             <SwiperSlide>
               <Box className="relative border-[3px] border-[#C1ECFB] rounded-[10px] shadow-lg h-[285px] min-h-full">
                 <Box className="z-10 bg-gradient-to-r from-[#27B4EE] to-[#115DCE] h-[100px] w-[100px] rounded-[50%] flex justify-center items-center slider-box-adjustment">
-                  <img src={fintech} className="w-[40%] object-cover" />
+                  <img src={fintech} className="w-[40%] object-cover"   alt="..."/>
                 </Box>
                 <Box className="block mt-[4rem] px-2">
                   <Typography
@@ -128,7 +128,7 @@ function IndustriesWeServe() {
             <SwiperSlide>
               <Box className="relative border-[3px] border-[#C1ECFB] rounded-[10px] shadow-lg h-[285px] min-h-full">
                 <Box className="z-10 bg-gradient-to-r from-[#27B4EE] to-[#115DCE] h-[100px] w-[100px] rounded-[50%] flex justify-center items-center slider-box-adjustment">
-                  <img src={Travel} className="w-[40%] object-cover" />
+                  <img src={Travel} className="w-[40%] object-cover"  alt="..."/>
                 </Box>
                 <Box className="block mt-[4rem] px-2">
                   <Typography
@@ -157,7 +157,7 @@ function IndustriesWeServe() {
             <SwiperSlide>
               <Box className="relative border-[3px] border-[#C1ECFB] rounded-[10px] shadow-lg h-[285px] min-h-full">
                 <Box className="z-10 bg-gradient-to-r from-[#27B4EE] to-[#115DCE] h-[100px] w-[100px] rounded-[50%] flex justify-center items-center slider-box-adjustment">
-                  <img src={Education} className="w-[40%] object-cover" />
+                  <img src={Education} className="w-[40%] object-cover"   alt="..."/>
                 </Box>
                 <Box className="block mt-[4rem] px-2">
                   <Typography
@@ -185,7 +185,7 @@ function IndustriesWeServe() {
             <SwiperSlide>
               <Box className="relative border-[3px] border-[#C1ECFB] rounded-[10px] shadow-lg h-[285px] min-h-full">
                 <Box className="z-10 bg-gradient-to-r from-[#27B4EE] to-[#115DCE] h-[100px] w-[100px] rounded-[50%] flex justify-center items-center slider-box-adjustment">
-                  <img src={basket} className="w-[40%] object-cover" />
+                  <img src={basket} className="w-[40%] object-cover"  alt="..." />
                 </Box>
                 <Box className="block mt-[4rem] px-2">
                   <Typography
@@ -214,7 +214,7 @@ function IndustriesWeServe() {
             <SwiperSlide>
               <Box className="relative border-[3px] border-[#C1ECFB] rounded-[10px] shadow-lg h-[285px] min-h-full">
                 <Box className="z-10 bg-gradient-to-r from-[#27B4EE] to-[#115DCE] h-[100px] w-[100px] rounded-[50%] flex justify-center items-center slider-box-adjustment">
-                  <img src={fintech} className="w-[40%] object-cover" />
+                  <img src={fintech} className="w-[40%] object-cover"  alt="..."/>
                 </Box>
                 <Box className="block mt-[4rem] px-2">
                   <Typography
@@ -243,7 +243,7 @@ function IndustriesWeServe() {
             <SwiperSlide>
               <Box className="relative border-[3px] border-[#C1ECFB] rounded-[10px] shadow-lg h-[285px] min-h-full">
                 <Box className="z-10 bg-gradient-to-r from-[#27B4EE] to-[#115DCE] h-[100px] w-[100px] rounded-[50%] flex justify-center items-center slider-box-adjustment">
-                  <img src={Travel} className="w-[40%] object-cover" />
+                  <img src={Travel} className="w-[40%] object-cover"  alt="..."/>
                 </Box>
                 <Box className="block mt-[4rem] px-2">
                   <Typography
@@ -272,7 +272,7 @@ function IndustriesWeServe() {
             <SwiperSlide>
               <Box className="relative border-[3px] border-[#C1ECFB] rounded-[10px] shadow-lg h-[285px] min-h-full">
                 <Box className="z-10 bg-gradient-to-r from-[#27B4EE] to-[#115DCE] h-[100px] w-[100px] rounded-[50%] flex justify-center items-center slider-box-adjustment">
-                  <img src={Education} className="w-[40%] object-cover" />
+                  <img src={Education} className="w-[40%] object-cover"  alt="..."/>
                 </Box>
                 <Box className="block mt-[4rem] px-2">
                   <Typography

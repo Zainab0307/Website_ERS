@@ -123,7 +123,7 @@ function OurStats() {
                     </div>
                   </div>
                   <div class="custom-box box-5">
-                    <img class="stat-img-lazyloaded" src={Menu} />
+                    <img class="stat-img-lazyloaded" src={Menu}  alt="..."/>
                     <div class="custom-values">
                       <div class="row-align">
                         <p>{customer}</p> <span>%</span>
@@ -132,7 +132,7 @@ function OurStats() {
                     </div>
                   </div>
                   <div class="custom-box box-4">
-                    <img class="stat-img-lazyloaded" src={Graph} />
+                    <img class="stat-img-lazyloaded" src={Graph}  alt="..."/>
                     <div class="custom-values">
                       <div class="row-align">
                         <p>{clients}</p> <span>+</span>
@@ -141,7 +141,7 @@ function OurStats() {
                     </div>
                   </div>
                   <div class="custom-box box-3">
-                    <img class="stat-img-lazyloaded" src={Avatar} />
+                    <img class="stat-img-lazyloaded" src={Avatar}  alt="..."/>
                     <div class="custom-values">
                       <div class="row-align">
                         <p>{members}</p> <span>+</span>

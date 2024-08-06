@@ -182,7 +182,7 @@ function WhyChooseUs() {
                 <Box className="h-[50px] w-[50px] bg-gradient-to-r from-[#29BCF1] to-[#1057CF] rounded-[50px] flex justify-center items-center overflow-hidden">
                   <img
                     src={TeamMember}
-                    className="w-[30px] object-cover translate-y-[4px]"
+                    className="w-[30px] object-cover translate-y-[4px]"  alt="..."
                   />
                 </Box>
                 <Box className="text-start">

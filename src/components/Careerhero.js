@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from "react";
-import { Box, Divider, Typography, Button, Grid, Tab } from "@mui/material";
+import React from "react";
+import { Box,  Typography, Button, Grid } from "@mui/material";
 
 function Careerhero({
   btnText,

@@ -138,6 +138,7 @@ const prevButtonRef = useRef()
                     <img
                       src={TeamMember}
                       className="w-[30px] object-cover translate-y-[4px]"
+                      alt="..."
                     />
                   </Box>
                   <Box className="text-start ">
@@ -195,6 +196,7 @@ const prevButtonRef = useRef()
                     <img
                       src={TeamMember}
                       className="w-[30px] object-cover translate-y-[4px]"
+                      alt="..."
                     />
                   </Box>
                   <Box className="text-start ">
@@ -252,6 +254,7 @@ const prevButtonRef = useRef()
                     <img
                       src={TeamMember}
                       className="w-[30px] object-cover translate-y-[4px]"
+                      alt="..."
                     />
                   </Box>
                   <Box className="text-start ">
@@ -309,6 +312,7 @@ const prevButtonRef = useRef()
                     <img
                       src={TeamMember}
                       className="w-[30px] object-cover translate-y-[4px]"
+                      alt="..."
                     />
                   </Box>
                   <Box className="text-start ">

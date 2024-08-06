@@ -1,10 +1,9 @@
-import React, { useState, useEffect, useRef, useCallback } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Outlet, Link } from "react-router-dom";
 import { IoClose } from "react-icons/io5";
 import { IoMdArrowRoundBack } from "react-icons/io";
 import Logo from "../../assets/images/white-logo.png";
 import CLogo from "../../assets/images/colorlogo.png";
-import { Button } from "@mui/material";
 import AboutIcon from "../../assets/images/about-us.png";
 import CareersIcon from "../../assets/images/careers.png";
 import PortfolioIcon from "../../assets/images/portfolio.png";
@@ -22,6 +21,7 @@ function MainLayout() {
   const menuRef = useRef(null);
   const menuOverlayRef = useRef(null);
   let subMenu;
+
 
   const [menuActive, setMenuActive] = useState(false);
   const [scroll, setScroll] = useState(0);

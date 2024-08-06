@@ -1,4 +1,4 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import book from "../assets/images/book.png";
 import { useTheme } from "@mui/material/styles";
 import { TextareaAutosize } from "@mui/base/TextareaAutosize";
@@ -12,9 +12,6 @@ import {
     Typography,
     Grid,
     List,
-    ListItem,
-    ListItemIcon,
-    ListItemText,
     Button,
     Divider,
     FormControl,
@@ -27,11 +24,13 @@ import {
 
 function RequestQueryForm() {
     const theme = useTheme();
-  const [name, setName] = useState();
-  const [email, setEmail] = useState();
-  const [contact, setContact] = useState();
-  const [subject, setSubject] = useState();
-  const [message, setMessage] = useState();
+  // const [name, setName] = useState();
+  // const [email, setEmail] = useState();
+  // const [contact, setContact] = useState();
+  // const [subject, setSubject] = useState();
+  // const [message, setMessage] = useState();
+  
+  let name,email,contact,subject,message;
   return (
     <>
     <Grid container xs={10} className="!mx-auto">
