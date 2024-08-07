@@ -75,7 +75,7 @@ a no-brainer for us"
                         </ListItemIcon>
                         <ListItemText
                          primaryTypographyProps={{ className: '!text-xl !font-[poppins] !font-[500]' }}  
-                         secondaryTypographyProps={{ className: '!text-base !font-[poppins] !font-[400]' }} 
+                         secondaryTypographyProps={{ className: '!text-base !font-[poppins] !font-[400] ' }} 
                           className="!mt-0"
                           primary="Sincerety"
                           secondary="Outside the box thinking is

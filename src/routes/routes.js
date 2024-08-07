@@ -11,7 +11,7 @@ import Footer from "../components/Footer"
 import Pricing from '../view/pages/Pricing';
 function routes() {
   return (
-    <div className='mx-auto w-[1550px] overflow-x-hidden max-w-full'>
+    <div className='mx-auto w-[100%] overflow-x-hidden max-w-full'>
     <BrowserRouter>
     <Routes>
       <Route path="/" element={<MainLayout />}>

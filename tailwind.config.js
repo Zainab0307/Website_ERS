@@ -26,7 +26,7 @@ module.exports = {
       colors: {
         ersPrimary: "#26AFED",
         erssecondary: "#2e66f6",
-        textcolor: "#8989A2",
+        // textcolor: "#8989A2",
         // textcolor: "#ababab",
       },
       // backgroundImage:{
