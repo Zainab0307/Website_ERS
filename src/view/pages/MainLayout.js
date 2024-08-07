@@ -302,7 +302,7 @@ function MainLayout() {
                   </li>
                   <li className="menu-item-has-children">
                     <Link to="#" className="hire_team">
-                      Contact Us
+                      Contact 
                     </Link>
                   </li>
                 </ul>
